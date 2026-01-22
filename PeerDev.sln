@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerDev.AppHost", "PeerDev.AppHost\PeerDev.AppHost.csproj", "{5948B784-062C-4313-B9E6-08578CD3B64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerDev.ServiceDefaults", "PeerDev.ServiceDefaults\PeerDev.ServiceDefaults.csproj", "{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5948B784-062C-4313-B9E6-08578CD3B64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5948B784-062C-4313-B9E6-08578CD3B64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5948B784-062C-4313-B9E6-08578CD3B64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5948B784-062C-4313-B9E6-08578CD3B64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
