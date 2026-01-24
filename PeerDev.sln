@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerDev.AppHost", "PeerDev.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerDev.ServiceDefaults", "PeerDev.ServiceDefaults\PeerDev.ServiceDefaults.csproj", "{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{D0E478A5-6186-4992-943B-EDF4FD41A858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionService", "QuestionService\QuestionService.csproj", "{B396A8E8-048E-4ED5-9CFA-FFD8F5E3FE7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA322FE4-3F47-404E-8FB5-8CDDF8784BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B396A8E8-048E-4ED5-9CFA-FFD8F5E3FE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B396A8E8-048E-4ED5-9CFA-FFD8F5E3FE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B396A8E8-048E-4ED5-9CFA-FFD8F5E3FE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B396A8E8-048E-4ED5-9CFA-FFD8F5E3FE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B396A8E8-048E-4ED5-9CFA-FFD8F5E3FE7D} = {D0E478A5-6186-4992-943B-EDF4FD41A858}
 	EndGlobalSection
 EndGlobal
